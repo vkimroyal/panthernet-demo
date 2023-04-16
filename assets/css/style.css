@@ -1,0 +1,137 @@
+.row {
+    display: flex;
+}
+
+.column#user_details {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.column#main_column {
+    float: right;
+    width: 75%;
+    padding: 10px;
+    min-height: 160px;
+}
+
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea {
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #D3D3D3;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.post_form input[type="submit"] {
+    width: 10%;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3333CC;
+    color: white;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:hover {
+    background-color: #7070DB;
+}
+
+.post_comment {
+    background-color: lightblue;
+}
+
+textarea.post_body {
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.newsfeedPostOptions {
+    padding: 0px;
+    text-decoration: none;
+    color: #3333CC;
+    border: none;
+}
+.newsfeedPostOptions iframe {
+    border: 0px;
+    height: 17px;
+    width: 120px;
+}
+
+.comment_like {
+    background-color: transparent;
+    border: none;
+    color: #3498db;
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.like_value {
+    display: inline;
+}
+
+.profile_left {
+    padding-left: 15px;
+    width: 17%;
+    max-width: 200px;
+    min-width: 130px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+
+.profile_infp p {
+    margin: 0 0 0 20px;
+    word-wrap: break-word;
+}
+
+.danger {
+    background-color: #e74c3c;
+    color: white;
+}
+.warning {
+    background-color: #f0ad4e;
+    color: white;
+}
+.default {
+    background-color: #bdc3c7;
+    color: white;
+}
+.success {
+    background-color: #2ecc71;
+    color: white;
+}
+.info {
+    background-color: #3498db;
+}
+.deep_blue {
+    background-color: #0043f0;
+}
+
+.profile_left input[type="submit"] {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin: left;
+    border: none;
+}
+
+.profile_left input[type="submit"]:hover {
+    background-color: #7070DB;
+}
